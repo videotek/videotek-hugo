@@ -1,0 +1,6 @@
+[submodule "public"]
+	path = public
+	url = https://github.com/videotek/videotek.github.io.git
+[submodule "static/font-awesome"]
+	path = static/font-awesome
+	url = https://github.com/FortAwesome/Font-Awesome.git

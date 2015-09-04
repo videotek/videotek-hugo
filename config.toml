@@ -1,4 +1,4 @@
-baseurl = "http://xciber.github.io/videotek/"
+baseurl = "http://videotek.github.io/"
 languageCode = "ru"
 title = "Мосохрана VideoTek"
 theme = "hugo-creative-theme"
@@ -45,7 +45,7 @@ canonifyurls = true
 
 	# About section
 	[params.about]
-		headline    = "Мы мобеспечиваем полный комплекс работ по обеспечению охраны объектов любой сложности!"
+		headline    = "Мы обеспечиваем полный комплекс работ по обеспечению охраны объектов любой сложности!"
 		description = "Видеонаблюдение, сигнализация, шлагбаумы, выпивон, закусон, девочки…"
 		buttonText  = "В начало!"
 
@@ -55,31 +55,50 @@ canonifyurls = true
 		headline = "Наши услуги"
 
         [[params.services.list]]
-            icon = "fa-diamond"
+            icon = "fa-video-camera"
             title = "Видеонаблюдение"
-            description = "Тут умные слова про видеонаблюдение."
+            description = "Система видеонаблюдения для загородного должна контролировать входы, окна дачных строений и территорию участка."
 
         [[params.services.list]]
-			icon = "fa-paper-plane"
+			icon = "fa-random"
 			title = "СКС "
-			description = "Тут умные слова про СКС."
+			description = "Мы предлагаем СКС под ключ. Видеонаблюдение, телевидение, интернет, телефония, пожарная и охранная сигнализации."
 
 		[[params.services.list]]
-            icon = "fa-newspaper-o"
-            title = "Сигнализация"
-            description = "Тут умные слова про пожарную и охранную сигнализацию."
+            icon = "fa-user-secret"
+            title = "Пожарная и охранная сигнализации"
+            description = "Охранная сигнализация является важнейшая частью  комплексных систем безопасности."
+
+#        [[params.services.list]]
+#            icon = "fa-heart"
+#            title = "Собутыльник"
+#            description = "Собутыльник с высшим образованием, знаток анекдотов и интеллектуал. Материалы заказчика. Оплата почасовая. Дорого! (интим не предлагать)"
 
         [[params.services.list]]
-            icon = "fa-heart"
-            title = "Собутыльник"
-            description = "Собутыльник с высшим образованием, знаток анекдотов и интеллектуал. Материалы заказчика. Оплата почасовая. Дорого! (интим не предлагать)"
+            icon = "fa-music"
+            title = "Озвучка мультирум"
+            description = "Хотите чтобы во всех комнатах звучала одна и та же музыка? Управлять громкостью с планшета? Умный дом на шаг ближе!"
 
+        [[params.services.list]]
+            icon = "fa-television"
+            title = "Телевидение"
+            description = "Спутниковое, кабельное и интернет-телевидение! В квартире и в загородном доме! Мультирум!"
+
+        [[params.services.list]]
+            icon = "fa-phone"
+            title = "Телефония"
+            description = "Нужен телефон в загородном доме? Нет проблем!"
+
+        [[params.services.list]]
+            icon = "fa-compress"
+            title = "Интернет"
+            description = "Мобильный и кабельный интернет. Дома и на даче!"
 
     # Portfolio modals
 	[params.portfolio.modal]
         client = "Клиент"
         date = "Дата"
-        category = "Кстегория"
+        category = "Категория"
         buttonText = "Закрыть"
 
     # Aside section
