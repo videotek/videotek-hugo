@@ -1,0 +1,98 @@
+baseurl = "http://xciber.github.io/videotek/"
+languageCode = "ru"
+title = "Мосохрана VideoTek"
+theme = "hugo-creative-theme"
+canonifyurls = true
+
+[params]
+
+	# You can use Markdown syntax for urls [text](//url.to/source) for
+	# most longer texts.
+
+	# All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
+	# for more icons. The icons are represented by their corresponding
+	# CSS class.
+
+	# All projects of the portfolio are defined in their own files.
+	# You can find example projects at 'exampleSite/data/projects'. Copy the 'projects'
+	# folder into the 'data' directory at the root of this Hugo site.
+	# For more informtion take a look at the README.
+
+	# To provide some metadata for search engines feel free to add a few
+    # information about you and your website.
+	name = "Мосохрана VideoTek"
+	description = "Your description"
+
+
+	# Navigation
+	[params.navigation]
+		brand = "Мосохрана VideoTek"
+
+		[params.navigation.links]
+			about     = "О Нас"
+			services  = "Услуги"
+			portfolio = "Примеры работ"
+			contact   = "Контакты"
+
+
+	# Hero section
+	[params.hero]
+		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
+		slogan     = "Ваши комфорт и безопасность - наша работа!"
+		subtitle   = "Круче нас только яйца!"
+		buttonText = "узнать подробности"
+
+
+	# About section
+	[params.about]
+		headline    = "Мы мобеспечиваем полный комплекс работ по обеспечению охраны объектов любой сложности!"
+		description = "Видеонаблюдение, сигнализация, шлагбаумы, выпивон, закусон, девочки…"
+		buttonText  = "В начало!"
+
+
+	# Service section
+	[params.services]
+		headline = "Наши услуги"
+
+        [[params.services.list]]
+            icon = "fa-diamond"
+            title = "Видеонаблюдение"
+            description = "Тут умные слова про видеонаблюдение."
+
+        [[params.services.list]]
+			icon = "fa-paper-plane"
+			title = "СКС "
+			description = "Тут умные слова про СКС."
+
+		[[params.services.list]]
+            icon = "fa-newspaper-o"
+            title = "Сигнализация"
+            description = "Тут умные слова про пожарную и охранную сигнализацию."
+
+        [[params.services.list]]
+            icon = "fa-heart"
+            title = "Собутыльник"
+            description = "Собутыльник с высшим образованием, знаток анекдотов и интеллектуал. Материалы заказчика. Оплата почасовая. Дорого! (интим не предлагать)"
+
+
+    # Portfolio modals
+	[params.portfolio.modal]
+        client = "Клиент"
+        date = "Дата"
+        category = "Кстегория"
+        buttonText = "Закрыть"
+
+    # Aside section
+	[params.aside]
+		headline = "Некоторые расценки на наши услуги"
+
+		[params.aside.button]
+			text = "Скачать"
+			link = "#"
+
+	# Contact section
+	[params.contact]
+		headline = "Держим связь!"
+		description = "Готовы начать Ваш следующий проект с нами? Отлично! Позвоните нам или напишите по электронной почте. Мы ответим так быстро, как только сможем!"
+		phone = "123-456-6789"
+		email = "надеревню@дедушке.com"
