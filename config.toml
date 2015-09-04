@@ -61,7 +61,7 @@ canonifyurls = true
 
         [[params.services.list]]
 			icon = "fa-random"
-			title = "СКС "
+			title = "СКС"
 			description = "Мы предлагаем СКС под ключ. Видеонаблюдение, телевидение, интернет, телефония, пожарная и охранная сигнализации."
 
 		[[params.services.list]]
