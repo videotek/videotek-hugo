@@ -17,18 +17,30 @@
                         <img src="img/portfolio/{{ .img }}" class="img-responsive img-centered" alt="">
                         <p>{{ .description | markdownify }}</p>
                         <ul class="list-inline item-details">
-                            <li>{{ with $.Site.Params.portfolio.modal.client }}{{.}}{{ end }}:
+                            {{ if isset . "client" }}
+                            <li>{{ with $.Site.Params.portfolio.modal.client }}{{.}}:{{ end }}
                                 <strong><a href="{{ .clientLink }}">{{ .client }}</a>
                                     </strong>
                             </li>
+                            {{ end }}
+                            {{ if isset . "date" }}
                             <li>{{ with $.Site.Params.portfolio.modal.date }}{{.}}{{ end }}:
                                 <strong><a href="#">{{ .date }}</a>
                                     </strong>
                             </li>
+                            {{ end }}
+                            {{ if isset . "category" }}
                             <li>{{ with $.Site.Params.portfolio.modal.category }}{{.}}{{ end }}:
                                 <strong><a href="#">{{ .category }}</a>
                                     </strong>
                             </li>
+                            {{ end }}
+                            {{ if isset . "price" }}
+                            <li>{{ with $.Site.Params.portfolio.modal.price }}{{.}}{{ end }}:
+                                <strong><a href="#">{{ .price }}</a>
+                                    </strong>
+                            </li>
+                            {{ end }}
                         </ul>
                         <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> {{ with $.Site.Params.portfolio.modal.buttonText }}{{.}}{{ end }}</button>
                     </div>
