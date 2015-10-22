@@ -13,6 +13,7 @@
                 <div class="col-lg-8 col-lg-offset-2">
                     <div class="modal-body">
                         <h2>{{ .title }}</h2>
+                        {{ if isset . "description"}} <h3>{{ .description }}</h3> {{ end }}
                         <hr class="star-primary">
                         <table width="100%", border="1">
                             {{ if isset . "item1" }}

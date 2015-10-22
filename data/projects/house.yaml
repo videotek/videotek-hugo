@@ -1,7 +1,7 @@
 modalID: 2
 title: Дом/Коттедж
 img: house.jpg
-description: 123
+description: IP видеонаблюдение
 item1: Уличная камера Модель 0050 (BSP-BO20-FL-03)
 item1c: 2
 item1p: 12 380,00р.
@@ -21,3 +21,4 @@ item4pp: 13 204,00р.
 price1: 82 784,00р.
 price2: 10 925,00р.
 price: 136 409,00р.
+minprice: 100р
