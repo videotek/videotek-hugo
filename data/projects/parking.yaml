@@ -1,5 +1,30 @@
 modalID: 5
 title: Парковка
 img: parking.jpg
-description: Пивасик, диванчик, футбол!
-price: 
+item1: Купольная камера Модель 01141.3MP-DOM-2.8
+item1c: 4
+item1p: 10 000,00р.
+item1pp: 40 000,00р.
+item2: Уличная камера Модель 0031BSP-BO13-FL-03
+item2c: 4
+item2p: 8 010,00р.
+item2pp: 32 040,00р.
+item3: Видеорегистратор Модель 0123BSP-NVR-0801-03 
+item3c: 1
+item3p: 12 510,00р.
+item3pp: 12 510,00р.
+item4: Коммутатор POE Модель 0072 BSP-POE-0504N-03
+item4c: 2
+item4p: 9 270,00р.
+item4pp: 18 540,00р.
+item5: Жесткий диск 3.0Tb Seagate NAS HDD ST3000VN000 SATA 6 Gb/s, 64 MB Cache, 5900 RP
+item5c: 1
+item5p: 8 890,00р.
+item5pp: 8 890,00р.
+item6: Материалы
+item6c: 1
+item6p: 1
+item6pp: 8 325,00р.
+price1: 120 305,00р.
+price2: 32 500,00р.
+price: 152 805,00р.
