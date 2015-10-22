@@ -1,0 +1,22 @@
+{{ "<!-- why Section -->" | safeHTML }}
+<section id="why">
+<div class="container">
+    <div class="page-header">
+        <h1 id="timeline">{{ with .Site.Params.why.title }}{{ . }}{{ end }}</h1>
+    </div>
+    <ul class="timeline">
+        {{ range $i, $e := .Site.Params.why.events }}
+        <li {{if (not (modBool $i 2)) }} class="timeline-inverted" {{end}} >
+          <div class="timeline-badge {{ .icontype }}"><i class="glyphicon glyphicon-{{ .icon }}"></i></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">{{ .title }}</h4>
+            </div>
+            <div class="timeline-body">
+              <p>{{ .description  | markdownify }}</p>
+            </div>
+          </div>
+        </li>
+        {{ end }}
+    </ul>
+</div>

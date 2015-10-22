@@ -111,7 +111,53 @@ canonifyurls = true
 
 	# Contact section
 	[params.contact]
-		headline = "Держим связь!"
+		headline = "Свяжитесь с нами!"
 		description = "Готовы начать Ваш следующий проект с нами? Отлично! Позвоните нам или напишите по электронной почте. Мы ответим так быстро, как только сможем!"
-		phone = "123-456-6789"
+		phone = "+7 (495) 971-39-56, +7 (926) 990-88-59"
 		email = "надеревню@дедушке.com"
+
+    # About section
+	[params.why]
+		title = "Почему с нами выгодно"
+		subtitle = "Lorem ipsum dolor sit amet consectetur."
+		endpoint = "Станьте частью нашей истории!"
+
+		# The events will be listed from the top to the bottom.
+		# All images are stored under 'static/img/about'.
+		# Replace them with your own.
+		[[params.why.events]]
+			icon = "certificate"
+			icontype = "success"
+			title = "Большой опыт"
+			description = "Работаем в области систем безопасности более 12 лет."
+
+		[[params.why.events]]
+			icon = "road"
+			icontype = "success"
+			title = "Бесплатный выезд"
+			description = "Приедем на ваш объект для оценки в течение 24х часов."
+
+		[[params.why.events]]
+			icon = "thumbs-up"
+			icontype = "success"
+			title = "Гарантия"
+			description = "Предоставляем гарантию 24 месяца на выполненные работы."
+
+		[[params.why.events]]
+			icon = "hourglass"
+			icontype = "success"
+			title = "Соблюдаем сроки"
+			description = "Сдаем объект вовремя, независимо от его размеров и сложности."
+
+		[[params.why.events]]
+			icon = "user"
+			icontype = "success"
+			title = "Персональный менеджер"
+			description = "Будет сопровождать вас на всех этапах работ."
+
+		[[params.why.events]]
+			icon = "usd"
+			icontype = "success"
+			title = "Гибкая система платежей"
+			description = "При необходимости разобьем оплату на удобные вам этапы."
+
