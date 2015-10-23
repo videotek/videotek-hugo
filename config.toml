@@ -27,11 +27,12 @@ canonifyurls = true
 	# Navigation
 	[params.navigation]
 		brand = "Мосохрана VideoTek"
+		phone = "+7 (495) 971-39-56"
 
 		[params.navigation.links]
 			about     = "О Нас"
 			services  = "Услуги"
-			portfolio = "Примеры работ"
+			portfolio = "Типы объектов"
 			contact   = "Контакты"
 
 
@@ -39,15 +40,15 @@ canonifyurls = true
 	[params.hero]
 		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
 		slogan     = "Ваши комфорт и безопасность - наша работа!"
-		subtitle   = "Круче нас только яйца!"
+		subtitle   = "Установка цифровых систем видеонаблюдения в Москве и московской области."
 		buttonText = "узнать подробности"
 
 
 	# About section
 	[params.about]
-		headline    = "Мы обеспечиваем полный комплекс работ по обеспечению охраны объектов любой сложности!"
-		description = "Видеонаблюдение, сигнализация, шлагбаумы, выпивон, закусон, девочки…"
-		buttonText  = "В начало!"
+		headline    = "Мы предоставляем полный комплекс услуг по проектированию, установке, обслуживанию слаботочных систем."
+		description = "Видеонаблюдение, Охранная сигнализация, Пожарная сигнализация, Система контроля и управления доступом, Структурированная кабельная сеть, Телефония, Озвучивание помещений"
+		buttonText  = "Услуги!"
 
 
 	# Service section
@@ -57,17 +58,17 @@ canonifyurls = true
         [[params.services.list]]
             icon = "fa-video-camera"
             title = "Видеонаблюдение"
-            description = "Система видеонаблюдения для загородного должна контролировать входы, окна дачных строений и территорию участка."
+            description = "проектирование, установка и обслуживание систем видеонаблюдения всех типов"
 
         [[params.services.list]]
-			icon = "fa-random"
-			title = "СКС"
-			description = "Мы предлагаем СКС под ключ. Видеонаблюдение, телевидение, интернет, телефония, пожарная и охранная сигнализации."
+			icon = "fa-user-secret"
+			title = "Охранная сигнализация"
+			description = "проектирование, установка и обслуживание охранных систем различных типов"
 
 		[[params.services.list]]
-            icon = "fa-user-secret"
-            title = "Пожарная и охранная сигнализации"
-            description = "Охранная сигнализация является важнейшая частью  комплексных систем безопасности."
+            icon = "fa-fire"
+            title = "Пожарная сигнализация"
+            description = "проектирование, установка и обслуживание пожарных сигнализаций"
 
 #        [[params.services.list]]
 #            icon = "fa-heart"
@@ -75,24 +76,24 @@ canonifyurls = true
 #            description = "Собутыльник с высшим образованием, знаток анекдотов и интеллектуал. Материалы заказчика. Оплата почасовая. Дорого! (интим не предлагать)"
 
         [[params.services.list]]
-            icon = "fa-music"
-            title = "Озвучка мультирум"
-            description = "Хотите чтобы во всех комнатах звучала одна и та же музыка? Управлять громкостью с планшета? Умный дом на шаг ближе!"
-
-        [[params.services.list]]
-            icon = "fa-television"
-            title = "Телевидение"
-            description = "Спутниковое, кабельное и интернет-телевидение! В квартире и в загородном доме! Мультирум!"
+            icon = "fa-random"
+            title = "СКС"
+            description = "проектирование кабельной системы, расчет оптимальной конфигурации кабельной сети, прокладка кабельных трасс, подключение кабельных компонентов"
 
         [[params.services.list]]
             icon = "fa-phone"
-            title = "Телефония"
-            description = "Нужен телефон в загородном доме? Нет проблем!"
+            title = "Телефония, 3G / 4G LTE интернет"
+            description = "установка и настройка цифровых телефонных станций, усилителей сотовой связи, 4G LTE / 3G Wi-Fi роутеров"
 
         [[params.services.list]]
-            icon = "fa-compress"
-            title = "Интернет"
-            description = "Мобильный и кабельный интернет. Дома и на даче!"
+            icon = "fa-lock"
+            title = "СКУД"
+            description = "установка и обслуживание систем контроля и управления доступом"
+
+#        [[params.services.list]]
+#            icon = "fa-compress"
+#            title = "Интернет"
+#            description = "Мобильный и кабельный интернет. Дома и на даче!"
 
     # Portfolio modals
 	[params.portfolio.modal]
@@ -108,11 +109,57 @@ canonifyurls = true
 
 		[params.aside.button]
 			text = "Скачать"
-			link = "#"
+			link = "/price.pdf"
 
 	# Contact section
 	[params.contact]
-		headline = "Держим связь!"
+		headline = "Свяжитесь с нами!"
 		description = "Готовы начать Ваш следующий проект с нами? Отлично! Позвоните нам или напишите по электронной почте. Мы ответим так быстро, как только сможем!"
-		phone = "123-456-6789"
+		phone = "+7 (495) 971-39-56, +7 (926) 990-88-59"
 		email = "надеревню@дедушке.com"
+
+    # About section
+	[params.why]
+		title = "Почему с нами выгодно"
+		subtitle = "Lorem ipsum dolor sit amet consectetur."
+		endpoint = "Станьте частью нашей истории!"
+
+		# The events will be listed from the top to the bottom.
+		# All images are stored under 'static/img/about'.
+		# Replace them with your own.
+		[[params.why.events]]
+			icon = "certificate"
+			icontype = "success"
+			title = "Большой опыт"
+			description = "Работаем в области систем безопасности более 12 лет."
+
+		[[params.why.events]]
+			icon = "road"
+			icontype = "success"
+			title = "Бесплатный выезд"
+			description = "Приедем на ваш объект для оценки в течение 24х часов."
+
+		[[params.why.events]]
+			icon = "thumbs-up"
+			icontype = "success"
+			title = "Гарантия"
+			description = "Предоставляем гарантию 24 месяца на выполненные работы."
+
+		[[params.why.events]]
+			icon = "hourglass"
+			icontype = "success"
+			title = "Соблюдаем сроки"
+			description = "Сдаем объект вовремя, независимо от его размеров и сложности."
+
+		[[params.why.events]]
+			icon = "user"
+			icontype = "success"
+			title = "Персональный менеджер"
+			description = "Будет сопровождать вас на всех этапах работ."
+
+		[[params.why.events]]
+			icon = "usd"
+			icontype = "success"
+			title = "Гибкая система платежей"
+			description = "При необходимости разобьем оплату на удобные вам этапы."
+
