@@ -1,6 +1,7 @@
 {{ "<!-- Portfolio Modals -->" | safeHTML }}
-{{ range .Site.Data.projects }}
-<div class="portfolio-modal modal fade" id="portfolioModal{{ .modalID }}" tabindex="-1" role="dialog" aria-hidden="true">
+{{ range where .Data.Pages "Section" "projects" }}
+<div class="portfolio-modal modal fade" id="portfolioModal{{ .Params.modalid }}" tabindex="-1" role="dialog"
+     aria-hidden="true">
     <div class="modal-content">
         <div class="close-modal" data-dismiss="modal">
             <div class="lr">
@@ -8,62 +9,16 @@
                 </div>
             </div>
         </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <div class="modal-body">
-                        <h2>{{ .title }}</h2>
-                        {{ if isset . "description"}} <h3>{{ .description }}</h3> {{ end }}
-                        <hr class="star-primary">
-                        <table width="100%", border="1">
-                            {{ if isset . "item1" }}
-                            <tr>
-                                <td align="left">{{ .item1 }}</td><td>{{ .item1c }}</td><td>{{ .item1p }}</td><td>{{ .item1pp }}</td>
-                            </tr>
-                            {{ end }}
-                            {{ if isset . "item2" }}
-                            <tr>
-                                <td align="left">{{ .item2 }}</td><td>{{ .item2c }}</td><td>{{ .item2p }}</td><td>{{ .item2pp }}</td>
-                            </tr>
-                            {{ end }}
-                            {{ if isset . "item3" }}
-                            <tr>
-                                <td align="left">{{ .item3 }}</td><td>{{ .item3c }}</td><td>{{ .item3p }}</td><td>{{ .item3pp }}</td>
-                            </tr>
-                            {{ end }}
-                            {{ if isset . "item4" }}
-                            <tr>
-                                <td align="left">{{ .item4 }}</td><td>{{ .item4c }}</td><td>{{ .item4p }}</td><td>{{ .item4pp }}</td>
-                            </tr>
-                            {{ end }}
-                            {{ if isset . "item5" }}
-                            <tr>
-                                <td align="left">{{ .item5 }}</td><td>{{ .item5c }}</td><td>{{ .item5p }}</td><td>{{ .item5pp }}</td>
-                            </tr>
-                            {{ end }}
-                            {{ if isset . "item6" }}
-                            <tr>
-                                <td align="left">{{ .item6 }}</td><td>{{ .item6c }}</td><td>{{ .item6p }}</td><td>{{ .item6pp }}</td>
-                            </tr>
-                            {{ end }}
-                            {{ if isset . "price1" }}
-                            <tr>
-                                <td align="left" colspan="3">Оборудование</td><td>{{ .price1 }}</td>
-                            </tr>
-                            {{ end }}
-                            {{ if isset . "price2" }}
-                            <tr>
-                                <td align="left" colspan="3">Работа</td><td>{{ .price2 }}</td>
-                            </tr>
-                            {{ end }}
-                            {{ if isset . "price" }}
-                            <tr>
-                                <td align="left" colspan="3">Итого</td><td>{{ .price }}</td>
-                            </tr>
-                            {{ end }}
-                        </table>
-                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> {{ with $.Site.Params.portfolio.modal.buttonText }}{{.}}{{ end }}</button>
-                    </div>
+
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <div class="modal-body">
+                    <h2>{{ .Title }}</h2>
+                    <hr class="star-primary">
+                    {{ .Content }}
+                    <button type="button" class="btn btn-default" data-dismiss="modal">
+                        <i class="fa fa-times"></i>Закрыть
+                    </button>
                 </div>
             </div>
         </div>
