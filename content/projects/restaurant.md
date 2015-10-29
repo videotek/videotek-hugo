@@ -2,8 +2,8 @@
 modalid: 4
 title: Ресторан
 img: restaurant.jpg
-description: IP видеонаблюдение
-category: IP видеонаблюдение
+description: Видеонаблюдение
+category: Видеонаблюдение
 minprice: 45 239,00р.
 ---
 

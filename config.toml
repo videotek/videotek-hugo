@@ -21,7 +21,7 @@ canonifyurls = true
 	# To provide some metadata for search engines feel free to add a few
     # information about you and your website.
 	name = "Мосохрана VideoTek"
-	description = "Your description"
+	description = "Мы предоставляем полный комплекс услуг по проектированию, установке, обслуживанию слаботочных систем, систем видеонаблюдения, систем пожарной и охранной сигнализации в Москве и московской области."
 
 
 	# Navigation
@@ -115,7 +115,8 @@ canonifyurls = true
 	[params.contact]
 		headline = "Свяжитесь с нами!"
 		description = "Готовы начать Ваш следующий проект с нами? Отлично! Позвоните нам или напишите по электронной почте. Мы ответим так быстро, как только сможем!"
-		phone = "+7 (495) 971-39-56, +7 (926) 990-88-59"
+		phone = "+7 (495) 971-39-56"
+		phone2 = "+7 (926) 990-88-59"
 		email = "videotek@mosohrana.ru"
 
     # About section

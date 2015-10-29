@@ -2,8 +2,8 @@
 modalid: 2
 title: Офис
 img: office.jpg
-description: IP видеонаблюдение
-category: IP видеонаблюдение
+description: Видеонаблюдение
+category: Видеонаблюдение
 minprice: 30 739,00р.
 ---
 

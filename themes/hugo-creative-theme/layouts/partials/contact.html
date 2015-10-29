@@ -9,11 +9,17 @@
             </div>
             <div class="col-lg-4 col-lg-offset-2 text-center">
                 <i class="fa fa-phone fa-3x wow bounceIn"></i>
-                <p>{{ with .Site.Params.contact.phone }}{{ . }}{{ end }}</p>
+                <p>
+                    {{ with .Site.Params.contact.phone }}<a href="tel:{{.}}">{{ . }}</a>{{ end }}
+                    {{ with .Site.Params.contact.phone2 }}<a href="tel:{{.}}">, {{ . }}</a>{{ end }}
+                </p>
             </div>
             <div class="col-lg-4 text-center">
                 <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
                 <p><a href="mailto:{{ with .Site.Params.contact.email }}{{ . }}{{ end }}">{{ with .Site.Params.contact.email }}{{ . }}{{ end }}</a></p>
+            </div>
+            <div class="col-sm-12">
+                <iframe src="https://docs.google.com/forms/d/1OZ6-Oju-F83ekjjvsqOfyXBiR7RV9LiNMQMu1Dd6B2s/viewform?embedded=true" width="100%" height="850px" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
             </div>
         </div>
     </div>

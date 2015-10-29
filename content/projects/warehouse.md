@@ -2,8 +2,8 @@
 modalid: 6
 title: Склад
 img: warehouse.jpg
-description: IP видеонаблюдение
-category: IP видеонаблюдение
+description: Видеонаблюдение
+category: Видеонаблюдение
 minprice: 76 665,00р.
 ---
 

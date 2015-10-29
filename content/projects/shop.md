@@ -2,8 +2,8 @@
 modalid: 5
 title: Магазин
 img: shop.jpg
-description: IP видеонаблюдение
-category: IP видеонаблюдение
+description: Видеонаблюдение
+category: Видеонаблюдение
 minprice: 38 699,00р.
 ---
 

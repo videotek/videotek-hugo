@@ -2,8 +2,8 @@
 modalid: 1
 title: Дом/Коттедж
 img: house.jpg
-description: IP видеонаблюдение
-category: IP видеонаблюдение
+description: Видеонаблюдение
+category: Видеонаблюдение
 minprice: 119 443,00р.
 ---
 

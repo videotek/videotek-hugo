@@ -2,8 +2,8 @@
 modalid: 3
 title: Парковка
 img: parking.jpg
-description: IP видеонаблюдение
-category: IP видеонаблюдение
+description: Видеонаблюдение
+category: Видеонаблюдение
 minprice: 81 505,00р.
 ---
 
