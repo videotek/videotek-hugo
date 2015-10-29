@@ -1,4 +1,4 @@
-baseurl = "http://videotek.github.io/"
+baseurl = "http://videotek.mosohrana.ru/"
 languageCode = "ru"
 title = "Мосохрана VideoTek"
 theme = "hugo-creative-theme"
