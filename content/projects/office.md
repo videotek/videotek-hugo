@@ -18,14 +18,13 @@ minprice: 30 739,00р.
             <table class="price" border="1">
                 <tr class="result"><td colspan="5" align="left">Оборудование:</td><td></td></tr>
                 <tr><td>1.</td><td>Купольная камера Модель 01141.3MP-DOM-2.8</td><td>2</td><td>шт</td><td>10 000,00р.</td><td>20 000,00р.</td></tr>
-                <tr><td>2.</td><td>Видеорегистратор Модель 0122 BSP-NVR-0401-03</td><td>1</td><td>шт</td><td>10 000,00р.</td><td>10 000,00р.</td></tr>
+                <tr><td>2.</td><td>Видеорегистратор Модель 0122 BSP-NVR-0401-03</td><td>1</td><td>шт</td><td>9 000,00р.</td><td>9 000,00р.</td></tr>
                 <tr><td>3.</td><td>Коммутатор POE Модель 0072 BSP-POE-0504N-03</td><td>1</td><td>шт</td><td>9 270,00р.</td><td>9 270,00р.</td></tr>
-                <tr><td>4.</td><td>Жесткий диск 3.0Tb Seagate NAS HDD ST3000VN000 SATA 6 Gb/s, 64 MB Cache, 5900 RP</td><td>1</td><td>шт</td><td>8 890,00р.</td><td>8 890,00р.</td></tr>
-                <tr><td>5.</td><td>Маршрутизатор ZyXEL Keenetic Extra 300 Мбит/с</td><td>1</td><td>шт</td><td>4 040,00р.</td><td>4 040,00р.</td></tr>
-                <tr class="result"><td colspan="5" align="left">Итого:</td><td>52 200,00р.</td></tr>
+                <tr><td>4.</td><td>Жесткий диск 3.0Tb Seagate NAS HDD ST3000VN000 SATA 6 Gb/s, 64 MB Cache, 5900 RP</td><td>1</td><td>шт</td><td>6 890,00р.</td><td>6 890,00р.</td></tr>
+                <tr class="result"><td colspan="5" align="left">Итого:</td><td>45 160,00р.</td></tr>
                 <tr class="result"><td colspan="5" align="left">Материалы:</td><td>3 045,00р.</td></tr>
                 <tr class="result"><td colspan="5" align="left">Трудозатраты:</td><td>14 000,00р.</td></tr>
-                <tr class="result sum"><td colspan="5" align="left">Всего:</td><td>69 245,00р.</td></tr>
+                <tr class="result sum"><td colspan="5" align="left">Всего:</td><td>62 205,00р.</td></tr>
             </table>
         </div>
         <div id="tab_c4">
